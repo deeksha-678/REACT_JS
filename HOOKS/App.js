@@ -1,10 +1,10 @@
 import React from "react";
-import FavoriteColor from "./component/FavoriteColor";
+import Incr from "./component/Incr";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <FavoriteColor/>
+        <Incr/>
       </div>
     );
   }
