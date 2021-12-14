@@ -1,10 +1,10 @@
 import React from "react";
-import Hoooks from "./component/Hoooks";
+import Prohook from "./component/Prohook";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Hoooks/>
+        <Prohook/>
       </div>
     );
   }
