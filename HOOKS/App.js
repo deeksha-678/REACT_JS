@@ -1,10 +1,10 @@
 import React from "react";
-import Incr from "./component/Incr";
+import Hoooks from "./component/Hoooks";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Incr/>
+        <Hoooks/>
       </div>
     );
   }
