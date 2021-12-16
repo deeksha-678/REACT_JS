@@ -1,10 +1,10 @@
 import React from "react";
-import Lifecycle from "./component/Lifecycle";
+import Lifecyclee from "./component/Lifecyclee";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Lifecycle/>
+        <Lifecyclee/>
       </div>
     );
   }
