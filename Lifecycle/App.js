@@ -1,12 +1,16 @@
-import React from "react";
-import Lifecyclee from "./component/Lifecyclee";
-class App extends React.Component {
-  render() {
-    return (
+import React,{Component} from "react";
+import Lifecycle1 from "./Lifecycle1";
+// import FormComponent from "./FormComponent";
+import './App.css';
+
+class App extends Component{
+  render(){
+    return(
       <div>
-        <Lifecyclee/>
+        <Lifecycle1/>
+        {/* <FormComponent/> */}
       </div>
-    );
+    )
   }
 }
 export default App;
