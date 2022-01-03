@@ -1,23 +1,15 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./component/Navbar";
-import Login from "./component/Login";
-
-import Digital from "./component/Digital";
-import SMS from "./component/SMS";
+import './App.css';
+import React from 'react';
+import ParentComp from './ParentComp';
+  
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/showpassword" element={<Login />} />
-          <Route path="/sms" element={<SMS />} />
-          <Route path="/digital" element={<Digital />} />
-        </Routes>
-      </Router>
-    </>
+    <div className="App">
+      <h1><center>-----------METHODS AS PROPS-------------</center></h1>
+      <ParentComp />
+  
+    </div>
   );
 }
-
+ 
 export default App;
