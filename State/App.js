@@ -4,12 +4,12 @@ class App extends Component {
   {
     super();
     this.state={
-      data: 1
+      data: "Tom"
     }
   }
   updateData()
   {
-   this.setState({data:this.state.data+1})
+   this.setState({data:"Peter"})
   }
   render()
   {
