@@ -1,14 +1,9 @@
-import React from "react";
-import Axiosss from "./component/Axiosss";
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Axiosss/>
-      
-      </div>
-    );
-  }
+import React from 'react'
+import FetchNews from './FetchNews'
+function App()
+{
+  return(
+    <FetchNews/>
+  )
 }
-export default App;
+export default App
